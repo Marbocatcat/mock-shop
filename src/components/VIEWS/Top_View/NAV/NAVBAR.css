@@ -1,0 +1,42 @@
+
+.nav-bar {
+  color: #fff;
+  font-family: Avenir Next, Helvetica, Arial;
+  letter-spacing: .1rem;
+}
+
+.NAV-LEFT {
+  padding: 2rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.NAV-RIGHT {
+  padding: 2rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.NAV-RIGHT li {
+  padding-right: 1rem;
+}
+
+ul li {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFF;
+}
+a:visited {
+  color: #FFF;
+}
