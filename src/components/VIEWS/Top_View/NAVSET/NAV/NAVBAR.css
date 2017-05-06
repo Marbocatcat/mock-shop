@@ -3,22 +3,8 @@
   color: #e2e6e8;
   font-family: Avenir Next, Helvetica, Arial;
   letter-spacing: .1rem;
-}
-
-.NAV-LEFT {
-  padding: 2rem;
   display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.NAV-RIGHT {
-  padding: 2rem;
-  display: flex;
-  position: fixed;
-  top: 0;
-  right: 0;
+  justify-content: space-between;
 }
 
 .NAV-RIGHT li {
