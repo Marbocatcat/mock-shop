@@ -1,0 +1,9 @@
+.LEFTBAR {
+  color: #e2e6e8;
+  font-family: Avenir Next, Helvetica, Arial;
+  letter-spacing: .1rem;
+  position: fixed;
+  bottom: 0;
+  padding: 2rem;
+  margin-bottom: 10rem;
+};
