@@ -2,22 +2,34 @@
 .nav-bar {
   color: #e2e6e8;
   font-family: Avenir Next, Helvetica, Arial;
+  font-size: .8rem;
   letter-spacing: .1rem;
   display: flex;
   justify-content: space-between;
 }
 
+.NAV-RIGHT  {
+  display: inherit;
+
+}
+
+.NAV-LEFT {
+  display: inherit;
+}
+
 .NAV-RIGHT li {
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 
 ul li {
   list-style: none;
-
 }
 
 a {
   text-decoration: none;
+  width: 0px;
+  border-bottom: solid 0px transparent;
+  transition: 0.5s ease-in-out;
 }
 
 a:link {
@@ -25,4 +37,9 @@ a:link {
 }
 a:visited {
   color: #FFF;
+}
+
+a:hover {
+  border-bottom: solid 1px #fff;
+  width: 100px;
 }
