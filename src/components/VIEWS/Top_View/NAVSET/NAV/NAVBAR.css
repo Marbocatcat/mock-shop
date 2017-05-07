@@ -8,6 +8,12 @@
   justify-content: space-between;
 }
 
+@media (min-width: 1440px) {
+  .LEFTBAR {
+    margin-top: 20rem;
+  }
+}
+
 .NAV-RIGHT  {
   display: inherit;
 
@@ -27,8 +33,8 @@ ul li {
 
 a {
   text-decoration: none;
-  width: 0px;
   border-bottom: solid 0px transparent;
+  width: 0px;
   transition: 0.5s ease-in-out;
 }
 
@@ -41,5 +47,5 @@ a:visited {
 
 a:hover {
   border-bottom: solid 1px #fff;
-  width: 100px;
+  width: 80px;
 }

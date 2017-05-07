@@ -1,4 +1,32 @@
 .Mid_View {
   grid-area: MID;
-  background-color: #16191B;
-};
+  background-color: #fff;
+}
+
+.Card_Wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+
+    ". Items Items Items ."
+    ". Items Items Items .";
+
+
+}
+
+.Card_Wrapper ul {
+  grid-area: Items;
+}
+
+.Card_Wrapper ul li {
+  display: inline;
+
+}
+
+.Image {
+  padding: .5rem;
+  height: 372px;
+  width: 400px;
+
+}
