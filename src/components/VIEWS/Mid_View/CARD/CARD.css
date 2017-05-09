@@ -1,8 +1,31 @@
 .Card {
+  color: #333;
+  font-family: Avenir Next, Helvetica, Arial;
   background-size: cover;
   background-position: center;
   height: 447px;
   width: 372px;
+}
+
+
+.Card h1 {
+  font-size: 5rem;
+  margin: 0px;
+}
+
+.Card p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.Card h5 {
+  font-size: 1.2rem;
+}
+
+.Card a {
+  color: #333;
+  border-bottom: solid 1px transparent;
+  transition: 0.5s ease-in-out;
 }
 
 @media (max-width: 1440px) {

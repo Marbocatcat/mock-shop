@@ -10,9 +10,11 @@ CARD.propTypes = {
 function CARD (props) {
   return (
       <li>
-        <a href="">
-            <div className="Card" style={ props.Image }></div>
-        </a>
+          <div className="Card" style={ props.Image }>
+            <h1>{ props.Header }</h1>
+            <p>{ props.Info }</p>
+            <a href=""><h5>{ props.Link }</h5></a>
+          </div>
       </li>
   )
 };
