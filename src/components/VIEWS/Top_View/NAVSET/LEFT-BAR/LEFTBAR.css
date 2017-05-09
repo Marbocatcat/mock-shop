@@ -6,3 +6,7 @@
   letter-spacing: .1rem;
   margin-top: 14rem;
 }
+
+.List li {
+  padding-top: .8rem;
+}

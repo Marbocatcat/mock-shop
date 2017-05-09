@@ -9,8 +9,7 @@ import MIDVIEW from './VIEWS/Mid_View/MIDVIEW';
 import BOTTOMVIEW from './VIEWS/Bottom_View/BOTTOMVIEW';
 import FOOTER from './FOOTER/FOOTER';
 
-
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="Container">
@@ -22,5 +21,3 @@ class App extends Component {
     )
   }
 };
-
-export default App;

@@ -1,7 +1,8 @@
 import React from 'react';
 import './NAVBAR.css';
 
-const NAVBAR = (props) => {
+
+function NAVBAR () {
   return (
     <nav className="nav-bar">
       <NAVLEFT />
@@ -10,17 +11,16 @@ const NAVBAR = (props) => {
   )
 };
 
-const NAVLEFT = (props) => {
+function NAVLEFT () {
   return (
     <ul className="NAV-LEFT">
       <li><a href="">EN/</a></li>
-
       <li><a href="">IT</a></li>
     </ul>
   )
 };
 
-const NAVRIGHT = (props) => {
+function NAVRIGHT () {
   return (
     <ul className="NAV-RIGHT">
       <li><a href="">Sign in</a></li>

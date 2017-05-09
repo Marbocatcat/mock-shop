@@ -3,7 +3,7 @@ import './TOPVIEW.css';
 
 import NAVSET from './NAVSET/NAVSET';
 
-const TOPVIEW = (props) => {
+function TOPVIEW () {
   return (
     <section className="Top_View">
       <NAVSET />

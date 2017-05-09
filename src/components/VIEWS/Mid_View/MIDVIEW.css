@@ -3,30 +3,27 @@
   background-color: #fff;
 }
 
-.Card_Wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-
-    ". Items Items Items ."
-    ". Items Items Items .";
-
-
+.Mid_Wrapper {
+  padding: 0;
+  margin: 15rem 12rem 15rem 12rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.Card_Wrapper ul {
-  grid-area: Items;
+.Mid_Wrapper li {
+  padding: 0.8rem;
 }
 
-.Card_Wrapper ul li {
-  display: inline;
-
+.Card {
+  background-size: cover;
+  background-position: center;
+  height: 447px;
+  width: 372px;
 }
 
-.Image {
-  padding: .5rem;
-  height: 372px;
-  width: 400px;
-
+@media (max-width: 1440px) {
+  .Mid_Wrapper {
+    margin: 10rem 5rem 10rem 5rem;
+  }
 }

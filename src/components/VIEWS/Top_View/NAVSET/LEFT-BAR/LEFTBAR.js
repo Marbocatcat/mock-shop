@@ -1,16 +1,11 @@
 import React from 'react';
 import './LEFTBAR.css';
 
-const divStyle = {
-  paddingTop: ".8rem",
-}
-
 const items = ["Shop Woman", "Shop Man", "Collections", "Blog", "Factory", "Brand Story", "Stores"].map((item, i) => (
-  <li  style={ divStyle }  key={ i }><a href="">{ item }</a></li>
+  <li key={ i }><a href="">{ item }</a></li>
 ));
 
-
-const LEFTBAR = (props) => {
+function LEFTBAR () {
   return (
     <div className="LEFTBAR">
       <ul className="List">
@@ -19,5 +14,8 @@ const LEFTBAR = (props) => {
     </div>
   )
 };
+
+
+
 
 export default LEFTBAR;

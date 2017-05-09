@@ -1,26 +1,34 @@
 import React from 'react';
+
 import './MIDVIEW.css';
 
-const images = ["./Assets/Image/photo1.jpg", "./Assets/Image/photo2.jpg", "./Assets/Image/photo1.jpg", "./Assets/Image/photo2.jpg","./Assets/Image/photo1.jpg","./Assets/Image/photo2.jpg"].map((photo, i) => (
-  <a href=""><li><img className="Image" src={ photo } alt=""/></li></a>
-));
+import CARD from './CARD/CARD.js';
 
-const MIDVIEW = (props) => {
+
+const image1 = {
+  backgroundImage: "url(Assets/Image/photo1.jpg)",
+};
+
+const image2 = {
+  backgroundImage: "url(Assets/Image/photo2.jpg)",
+}
+
+function MIDVIEW () {
   return (
     <section className="Mid_View">
-      <SlideBox />
+      <ul className="Mid_Wrapper">
+        <CARD Image={ image1 }/>
+        <CARD Image={ image2 }/>
+        <CARD Image={ image1 }/>
+        <CARD Image={ image1 }/>
+        <CARD Image={ image1 }/>
+        <CARD Image={ image1 }/>
+      </ul>
     </section>
   )
 };
 
-const SlideBox = (props) => {
-  return (
-    <div className="Card_Wrapper">
-      <ul>
-        { images }
-      </ul>
-    </div>
-  )
-};
+
+
 
 export default MIDVIEW;

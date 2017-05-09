@@ -1,6 +1,7 @@
 import React from 'react';
 import './BOTTOMVIEW.css';
-const BOTTOMVIEW = (props) => {
+
+function BOTTOMVIEW () {
   return (
     <section className="Bottom_View">
 
