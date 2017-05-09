@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+
 import './App.css';
 import 'normalize.css';
-
-{ /* VIEWS */ }
 
 import TOPVIEW from './VIEWS/Top_View/TOPVIEW';
 import MIDVIEW from './VIEWS/Mid_View/MIDVIEW';

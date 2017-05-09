@@ -1,4 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import './CARD.css';
+
+CARD.propTypes = {
+  Image: PropTypes.object,
+};
 
 function CARD (props) {
   return (
@@ -9,5 +16,7 @@ function CARD (props) {
       </li>
   )
 };
+
+
 
 export default CARD;

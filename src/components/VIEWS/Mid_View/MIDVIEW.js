@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './MIDVIEW.css';
-
 import CARD from './CARD/CARD.js';
 
 

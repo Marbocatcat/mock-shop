@@ -1,0 +1,12 @@
+.Card {
+  background-size: cover;
+  background-position: center;
+  height: 447px;
+  width: 372px;
+}
+
+@media (max-width: 1440px) {
+  .Mid_Wrapper {
+    margin: 10rem 5rem 10rem 5rem;
+  }
+}
