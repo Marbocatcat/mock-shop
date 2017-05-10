@@ -29,45 +29,20 @@ function MIDVIEW (props) {
   return (
     <section className="Mid_View">
       <ul className="Mid_Wrapper">
-        <CARD
-          Header={ header.header }
-          Info={ header.info }
-          Link={ header.link }
-          Active={ props.Active }
-          />
-        <CARD
-          Image={ image2 }
-          Header={ header.header }
-          Info={ header.info }
-          Link={ header.link }
-          Active={ props.Active }
-          handleChange={ props.handleChange}
-          />
-        <CARD
-          Image={ image3 }
-          Header={ header.header }
-          Info={ header.info }
-          Link={ header.link }
-          handleChange={ props.handleChange }
-          />
-        <CARD
-          Image={ image4 }
-          Header={ header.header }
-          Info={ header.info }
-          Link={ header.link }
-          />
-        <CARD
-          Image={ image5 }
-          Header={ header.header }
-          Info={ header.info }
-          Link={ header.link }
-          />
-        <CARD
-          Image={ image1 }
-          Header={ header.header }
-          Info={ header.info }
-          Link={ header.link }
-          />
+        <li onMouseEnter={ props.handleChange }>
+          <CARD
+            Info={ header }
+            Activate={ props.Activate }
+            Image={ image2 }
+            />
+        </li>
+        <li onMouseEnter={ props.handleChange }>
+          <CARD
+            Info={ header }
+            Activate={ props.Activate }
+            Image={ image1 }
+            />
+        </li>
       </ul>
     </section>
   )

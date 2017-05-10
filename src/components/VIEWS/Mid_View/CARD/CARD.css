@@ -5,11 +5,12 @@
   background-position: center;
   height: 447px;
   width: 372px;
-}
 
+}
 
 .Info {
   display: none;
+  background-color: #fff;
   color: #333;
   height: 447px;
   width: 372px;
@@ -19,6 +20,7 @@
 .Info.Active {
   display: block;
 }
+
 
 .Info h1 {
   margin: 0px;

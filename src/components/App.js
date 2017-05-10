@@ -11,19 +11,19 @@ import FOOTER from './FOOTER/FOOTER';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { Active: "Info"}
+    this.state = { Info: "Info"}
   };
 
   handleChange = (props) => {
     console.log("Change Handled")
-    this.setState({ Active: "Card" })
+    this.setState({ Info: "Info Active" })
   };
 
   render() {
     return (
       <div className="Container">
         <TOPVIEW />
-        <MIDVIEW Active={ this.state.Active } handleChange={ this.handleChange }/>
+        <MIDVIEW Activate={ this.state.Info } handleChange={ this.handleChange }/>
         <BOTTOMVIEW />
         <FOOTER />
       </div>

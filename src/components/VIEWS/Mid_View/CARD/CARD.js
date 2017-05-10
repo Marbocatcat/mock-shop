@@ -5,25 +5,21 @@ import './CARD.css';
 
 CARD.propTypes = {
   Image: PropTypes.object,
-  Header: PropTypes.string,
-  Info: PropTypes.string,
-  Link: PropTypes.string,
-  handleChange: PropTypes.func,
-};
-
+  Activate: PropTypes.string,
+  header: PropTypes.string,
+  link: PropTypes.string,
+  Info: PropTypes.object,
+}
 
 function CARD (props) {
   return (
-      <li onMouseEnter={ props.handleChange }>
           <div className="Card" style={ props.Image }>
-            <div className={ props.Active }>
-              <h1>{ props.Header }</h1>
-              <p>{ props.Info }</p>
-              <a href=""><h5>{ props.Link }</h5></a>
+            <div className={ props.Activate }>
+              <h1>{ props.Info.header }</h1>
+              <p>{ props.Info.info }</p>
+              <a href=""><h5>{ props.Info.link }</h5></a>
             </div>
-          </div>
-
-      </li>
+           </div>
   )
 };
 
