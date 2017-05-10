@@ -9,11 +9,21 @@ import BOTTOMVIEW from './VIEWS/Bottom_View/BOTTOMVIEW';
 import FOOTER from './FOOTER/FOOTER';
 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { Active: "Info"}
+  };
+
+  handleChange = (props) => {
+    console.log("Change Handled")
+    this.setState({ Active: "Card" })
+  };
+
   render() {
     return (
       <div className="Container">
         <TOPVIEW />
-        <MIDVIEW />
+        <MIDVIEW Active={ this.state.Active } handleChange={ this.handleChange }/>
         <BOTTOMVIEW />
         <FOOTER />
       </div>

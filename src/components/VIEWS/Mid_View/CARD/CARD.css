@@ -8,25 +8,42 @@
 }
 
 
-.Card h1 {
-  font-size: 5rem;
-  margin: 0px;
+.Info {
+  display: none;
+  color: #333;
+  height: 447px;
+  width: 372px;
+  position: absolute;
 }
 
-.Card p {
+.Info.Active {
+  display: block;
+}
+
+.Info h1 {
+  margin: 0px;
+  padding: 1rem 0 1rem 0;
+  font-size: 5rem;
+}
+
+.Info p {
+  margin: 0px;
+  padding: 2rem 0 2rem 0;
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
-
-.Card h5 {
+.Info h5 {
+  margin: 0px;
   font-size: 1.2rem;
 }
 
-.Card a {
+.Info a {
   color: #333;
   border-bottom: solid 1px transparent;
   transition: 0.5s ease-in-out;
 }
+
+
 
 @media (max-width: 1440px) {
   .Mid_Wrapper {
