@@ -4,20 +4,19 @@ import PropTypes from 'prop-types';
 import './CARD.css';
 
 CARD.propTypes = {
-  Image: PropTypes.object,
-  Activate: PropTypes.string,
+  image: PropTypes.object,
   header: PropTypes.string,
   link: PropTypes.string,
-  Info: PropTypes.object,
+  info: PropTypes.string,
 }
 
 function CARD (props) {
   return (
-          <div className="Card" style={ props.Image }>
-            <div className={ props.Activate }>
-              <h1>{ props.Info.header }</h1>
-              <p>{ props.Info.info }</p>
-              <a href=""><h5>{ props.Info.link }</h5></a>
+          <div className="Card" style={ props.image }>
+            <div className={ props.activate }>
+              <h1>{ props.title }</h1>
+              <p>{ props.info }</p>
+              <a href=""><h5>{ props.link }</h5></a>
             </div>
            </div>
   )

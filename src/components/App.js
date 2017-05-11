@@ -8,22 +8,27 @@ import MIDVIEW from './VIEWS/Mid_View/MIDVIEW';
 import BOTTOMVIEW from './VIEWS/Bottom_View/BOTTOMVIEW';
 import FOOTER from './FOOTER/FOOTER';
 
+import data from './data.js';
+
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { Info: "Info"}
+    this.state = {
+      data: data,
+      activate: "Info",
+     }
   };
 
-  handleChange = (props) => {
-    console.log("Change Handled")
-    this.setState({ Info: "Info Active" })
+  handleMouseEnter = (ID) => {
+    const activate = "Info Active";
+    this.setState({ activate: activate})
   };
 
   render() {
     return (
       <div className="Container">
         <TOPVIEW />
-        <MIDVIEW Activate={ this.state.Info } handleChange={ this.handleChange }/>
+        <MIDVIEW Data={ this.state.data } Activate={ this.state.activate } handleMouseEnter={ this.handleMouseEnter }/>
         <BOTTOMVIEW />
         <FOOTER />
       </div>
