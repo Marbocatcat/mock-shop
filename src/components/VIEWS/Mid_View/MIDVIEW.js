@@ -1,31 +1,8 @@
 import React from 'react';
-import { PropTypes } from 'react';
+import PropTypes from 'prop-types';
 
 import './MIDVIEW.css';
 import './CARD.css';
-
-
-
-MIDVIEW.propTypes = {
-  data: PropTypes.array,
-};
-
-function MIDVIEW (props) {
-  return (
-    <section className="Mid_View">
-      <ul className="Mid_Wrapper">
-        <CARD data={props.data[0]} />
-        <CARD data={props.data[1]} />
-        <CARD data={props.data[2]} />
-        <CARD data={props.data[3]} />
-        <CARD data={props.data[4]} />
-        <CARD data={props.data[3]} />
-
-
-      </ul>
-    </section>
-  )
-};
 
 CARD.propTypes = {
   image: PropTypes.object,
@@ -34,6 +11,29 @@ CARD.propTypes = {
   link: PropTypes.string,
   data: PropTypes.object,
 };
+
+MIDVIEW.propTypes = {
+  data: PropTypes.array,
+};
+
+
+
+function MIDVIEW (props) {
+  const data = props.data.map(function(item, i) {
+    return <CARD key={i} data={props.data[i]}/>
+  });
+  return (
+    <section className="Mid_View">
+      <ul className="Mid_Wrapper">
+        {data}
+      </ul>
+
+
+    </section>
+  )
+};
+
+
 
 function CARD (props) {
   const data=props.data;

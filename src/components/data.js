@@ -19,7 +19,7 @@ const data = [
     objectID: 1,
   },
   {
-    title: "Theoretical Physics",
+    title: "Interview with Kicki Zang",
     info: "Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease, influences the sneaker scene with his original    and individual pics. At the same time, he focuses on symmetrical",
     link: "Show News",
     image: {
@@ -38,12 +38,21 @@ const data = [
   },
   {
     title: "Theoretical Physics",
-    info: "Last Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease, influences the sneaker scene with his original and individual pics. At the same time, he focuses on symmetrical pictorial compositions and “dark” productions. In shootings he feels well equipped with his pinqponq backpack CUBIK Large Acid Black and the camera inlay KLICK. What kind of sneakers he prefers to snap and what is behind the hashtag #inrawplease, Massimo tells us in the interview.",
+    info: "Last Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease,",
     link: "Show News",
     image: {
       backgroundImage: "url(Assets/Image/photo5.jpg)",
     },
     objectID: 4,
+  },
+  {
+    title: "Theoretical Physics",
+    info: "Last Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease,",
+    link: "Show News",
+    image: {
+      backgroundImage: "url(Assets/Image/photo6.jpg)",
+    },
+    objectID: 5,
   },
 ]
 
