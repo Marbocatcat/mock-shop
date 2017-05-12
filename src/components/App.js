@@ -15,31 +15,16 @@ export default class App extends Component {
     super(props);
     this.state = {
       data: data,
-      0: false,
-      1: false,
-      activate: "Info",
      }
   };
 
-handleClick=(id)=> {
-  const val = !this.state[id];
-  console.log({val});
-  if(val===true) {
-    const activate="Info Active";
-    this.setState({activate: activate})
-  } else {
-    const deactivate="Info";
-    this.setState({activate: deactivate})
-  }
-  this.setState({[id]: val});
-};
 
 
   render() {
     return (
       <div className="Container">
         <TOPVIEW />
-        <MIDVIEW Data={ this.state.data } Activate={this.state.activate} state={this.state[0]} handleClick={()=>this.handleClick(0) } />
+        <MIDVIEW Data={ this.state.data }/>
         <BOTTOMVIEW />
         <FOOTER />
       </div>

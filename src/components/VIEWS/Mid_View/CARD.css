@@ -17,9 +17,8 @@
   position: absolute;
 }
 
-.Info.Active {
+.Trigger:hover .Info  {
   display: block;
-
 }
 
 
