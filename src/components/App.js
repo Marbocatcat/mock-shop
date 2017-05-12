@@ -18,13 +18,11 @@ export default class App extends Component {
      }
   };
 
-
-
   render() {
     return (
       <div className="Container">
         <TOPVIEW />
-        <MIDVIEW Data={ this.state.data }/>
+        <MIDVIEW data={this.state.data}/>
         <BOTTOMVIEW />
         <FOOTER />
       </div>
