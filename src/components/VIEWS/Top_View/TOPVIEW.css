@@ -1,6 +1,6 @@
 .Top_View {
   grid-area: TOP;
-  background-image: url('/Assets/Image/topPhoto.jpg');
+  background-color: #020623;
   background-size: cover;
   background-position: center;
 }

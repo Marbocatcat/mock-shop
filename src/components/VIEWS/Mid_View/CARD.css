@@ -5,13 +5,13 @@
   background-position: center;
   height: 447px;
   width: 372px;
-
+  border-radius: .3rem;
 }
 
 .Info {
   display: none;
-  background-color: #fff;
-  color: #333;
+  background-color: #FF224B;
+  color: #fff;
   height: 447px;
   width: 372px;
   position: absolute;
@@ -19,28 +19,31 @@
 
 .Trigger:hover .Info  {
   display: block;
+
 }
 
 
 .Info h1 {
   margin: 0px;
-  padding: 1rem 0 1rem 0;
-  font-size: 5rem;
+  padding: 2rem 2rem 2rem 2rem;
+  font-size: 2rem;
 }
 
 .Info p {
   margin: 0px;
-  padding: 2rem 0 2rem 0;
+  padding: 0 2rem 0 2rem;
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
 .Info h5 {
   margin: 0px;
   font-size: 1.2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .Info a {
-  color: #333;
+  color: #fff;
+  padding: 2rem 2rem 2rem 2rem;
   border-bottom: solid 1px transparent;
   transition: 0.5s ease-in-out;
 }
