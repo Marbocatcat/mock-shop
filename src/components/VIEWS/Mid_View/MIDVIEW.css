@@ -8,7 +8,7 @@
   margin: 15rem 12rem 15rem 12rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 1440px) {
@@ -18,7 +18,7 @@
 }
 
 .Mid_Wrapper li {
-  padding: 0.8rem;
+  padding-top: 2rem;
 }
 
 .Mid_Wrapper h1 {

@@ -1,4 +1,26 @@
 .Bottom_View {
+  background-image: url("/Assets/Image/bottomPhoto.jpg");
+  background-size: cover;
+  background-position: center;
   grid-area: "BOTTOM";
-  background-color: #12355B;
+  background-color: #fff;
+  margin: 3rem;
+  font-family: Avenir Next, Helvetica, Arial;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: .1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 };
+
+.mid-wrapper h1 {
+
+}
+
+.button {
+  color: #333;
+  font-family: Avenir Next, Helvetica, Arial;
+  font-size: 1rem;
+
+}

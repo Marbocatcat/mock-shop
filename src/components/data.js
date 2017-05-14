@@ -28,8 +28,8 @@ const data = [
     objectID: 2,
   },
   {
-    title: "Theoretical Physics",
-    info: "Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease, influences the sneaker scene with his original and individual pics.",
+    title: "Instrument Mastery",
+    info: "The stereotype ducks. The chapel bolts. The stuff hopes for the famine before an eastern leaf. Can the activating memory emerge? The concern spends an addicted holder near an assistance.",
     link: "Show News",
     image: {
       backgroundImage: "url(Assets/Image/photo4.jpg)",
@@ -38,7 +38,7 @@ const data = [
   },
   {
     title: "Theoretical Physics",
-    info: "Last Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease,",
+    info: "The physic upgrade shouts. Each snack faults whatever adult parrot. The pouring vendor puzzles below a reminder. An executed skill dines above her designate leg.",
     link: "Show News",
     image: {
       backgroundImage: "url(Assets/Image/photo5.jpg)",
@@ -46,7 +46,7 @@ const data = [
     objectID: 4,
   },
   {
-    title: "Theoretical Physics",
+    title: "Last Highsnobiety",
     info: "Last Highsnobiety or Hypebeast - Massimo, on Instagram known as @sizetenplease,",
     link: "Show News",
     image: {

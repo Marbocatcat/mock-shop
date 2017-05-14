@@ -1,6 +1,7 @@
 
 .nav-bar {
-  background-color: #FF224B;
+  background-color: #FFF;
+  border-bottom: solid 2px #333;
   color: #e2e6e8;
   font-family: Avenir Next, Helvetica, Arial;
   font-size: 1rem;
@@ -37,17 +38,17 @@ a {
   text-decoration: none;
   border-bottom: solid 0px transparent;
   width: 0px;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in;
 }
 
 a:link {
-  color: #FFF;
+  color: #333;
 }
 a:visited {
-  color: #FFF;
+  color: #222;
 }
 
 a:hover {
-  border-bottom: solid 1px #fff;
+  border-bottom: solid 1px #333;
   width: 80px;
 }

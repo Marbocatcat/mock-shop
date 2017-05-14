@@ -21,19 +21,10 @@ function MIDVIEW (props) {
   });
   return (
     <section className="Mid_View">
-      <MIDHEADER />
       <ul className="Mid_Wrapper">
         {data}
       </ul>
     </section>
-  )
-};
-
-function MIDHEADER (props) {
-  return (
-    <div className="Mid_Wrapper">
-      <h1>NEWS</h1>
-    </div>
   )
 };
 

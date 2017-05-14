@@ -5,21 +5,22 @@
   background-position: center;
   height: 447px;
   width: 372px;
-  border-radius: .3rem;
+
 }
 
 .Info {
   display: none;
-  background-color: #FF224B;
-  color: #fff;
+  background-color: #FFF;
+  color: #333;
   height: 447px;
   width: 372px;
   position: absolute;
+  border: solid 2px transparent;
 }
 
 .Trigger:hover .Info  {
   display: block;
-  border-radius: .3rem;
+  border: solid 2px #333;
 }
 
 
@@ -42,7 +43,7 @@
 }
 
 .Info a {
-  color: #fff;
+  color: #333;
   padding: 2rem 2rem 2rem 2rem;
   border-bottom: solid 1px transparent;
   transition: 0.5s ease-in-out;
