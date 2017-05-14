@@ -19,7 +19,7 @@
 
 .Trigger:hover .Info  {
   display: block;
-
+  border-radius: .3rem;
 }
 
 
@@ -46,12 +46,4 @@
   padding: 2rem 2rem 2rem 2rem;
   border-bottom: solid 1px transparent;
   transition: 0.5s ease-in-out;
-}
-
-
-
-@media (max-width: 1440px) {
-  .Mid_Wrapper {
-    margin: 10rem 5rem 10rem 5rem;
-  }
 }

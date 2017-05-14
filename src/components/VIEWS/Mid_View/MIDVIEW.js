@@ -11,12 +11,9 @@ CARD.propTypes = {
   link: PropTypes.string,
   data: PropTypes.object,
 };
-
 MIDVIEW.propTypes = {
   data: PropTypes.array,
 };
-
-
 
 function MIDVIEW (props) {
   const data = props.data.map(function(item, i) {
@@ -24,16 +21,21 @@ function MIDVIEW (props) {
   });
   return (
     <section className="Mid_View">
+      <MIDHEADER />
       <ul className="Mid_Wrapper">
         {data}
       </ul>
-
-
     </section>
   )
 };
 
-
+function MIDHEADER (props) {
+  return (
+    <div className="Mid_Wrapper">
+      <h1>NEWS</h1>
+    </div>
+  )
+};
 
 function CARD (props) {
   const data=props.data;

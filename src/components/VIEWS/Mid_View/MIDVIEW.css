@@ -1,6 +1,6 @@
 .Mid_View {
   grid-area: MID;
-  background-color: #090D32;
+  background-color: #fff;
 }
 
 .Mid_Wrapper {
@@ -11,6 +11,18 @@
   justify-content: center;
 }
 
+@media (max-width: 1440px) {
+  .Mid_Wrapper {
+    margin: 4rem 3rem 4rem 3rem;
+  }
+}
+
 .Mid_Wrapper li {
   padding: 0.8rem;
+}
+
+.Mid_Wrapper h1 {
+  font-family: Avenir Next, Helvetica, Arial;
+  font-size: 4rem;
+  letter-spacing:
 }
