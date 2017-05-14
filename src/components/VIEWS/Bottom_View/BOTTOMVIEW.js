@@ -8,7 +8,6 @@ function BOTTOMVIEW (props) {
         <h1>
           Spring / Summer 2017
         </h1>
-        <BUTTON>Lookbook</BUTTON>
       </div>
     </section>
   )

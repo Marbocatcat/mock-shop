@@ -1,10 +1,11 @@
 .Container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 100vh auto 100vh auto;
+  grid-template-rows: 100vh auto 100vh auto auto;
   grid-template-areas:
     "TOP"
     "MID"
     "BOTTOM"
+    "CARD"
     "FOOTER"
 }

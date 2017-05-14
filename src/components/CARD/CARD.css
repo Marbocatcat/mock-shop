@@ -1,0 +1,28 @@
+.CARD {
+  grid-area: "CARD";
+  padding: 3rem;
+  margin: 0 6rem 0 6rem;
+  font-family: Avenir Next, Helvetica, Arial;
+}
+
+.CARDLIST {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.CARDLIST li {
+  padding: 2rem;
+  text-align: left;
+}
+
+.LEFTCARD {
+  border: solid 2px #333;
+  border-right: 0px;
+}
+
+.RIGHTCARD {
+  border: solid 2px #333;
+
+}
