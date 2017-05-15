@@ -1,0 +1,17 @@
+.footer {
+  border-top: solid 10px #333;
+}
+
+.footerList {
+  display: flex;
+  justify-content: center;
+}
+
+.listList {
+  font-family: Avenir Next, Helvetica, Arial;
+  padding: 3rem;
+}
+
+.listList li {
+  padding: .3rem;
+}
